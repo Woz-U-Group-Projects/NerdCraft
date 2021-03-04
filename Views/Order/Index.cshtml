@@ -1,0 +1,59 @@
+@model IEnumerable<NerdCraft.Models.order>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.OrderDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Completed)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.OrderName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.OrderEmail)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Customer)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.OrderDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Completed)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OrderName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OrderEmail)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Customer.Userpass)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.OrderNum">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.OrderNum">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.OrderNum">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
