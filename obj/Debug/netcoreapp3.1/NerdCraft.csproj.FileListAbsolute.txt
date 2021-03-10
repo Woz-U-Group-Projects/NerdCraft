@@ -225,3 +225,8 @@ C:\Users\morga\Desktop\FinalProjectPhase\NerdCraft\obj\Debug\netcoreapp3.1\Razor
 C:\Users\morga\Desktop\FinalProjectPhase\NerdCraft\obj\Debug\netcoreapp3.1\Razor\Views\WishList\Details.cshtml.g.cs
 C:\Users\morga\Desktop\FinalProjectPhase\NerdCraft\obj\Debug\netcoreapp3.1\Razor\Views\WishList\Edit.cshtml.g.cs
 C:\Users\morga\Desktop\FinalProjectPhase\NerdCraft\obj\Debug\netcoreapp3.1\Razor\Views\WishList\Index.cshtml.g.cs
+C:\Users\morga\Desktop\FinalProjectPhase\NerdCraft\obj\Debug\netcoreapp3.1\Razor\Views\Seller\Create.cshtml.g.cs
+C:\Users\morga\Desktop\FinalProjectPhase\NerdCraft\obj\Debug\netcoreapp3.1\Razor\Views\Seller\Delete.cshtml.g.cs
+C:\Users\morga\Desktop\FinalProjectPhase\NerdCraft\obj\Debug\netcoreapp3.1\Razor\Views\Seller\Details.cshtml.g.cs
+C:\Users\morga\Desktop\FinalProjectPhase\NerdCraft\obj\Debug\netcoreapp3.1\Razor\Views\Seller\Edit.cshtml.g.cs
+C:\Users\morga\Desktop\FinalProjectPhase\NerdCraft\obj\Debug\netcoreapp3.1\Razor\Views\Seller\Index.cshtml.g.cs

@@ -9,6 +9,7 @@ using NerdCraft.Models;
 
 namespace NerdCraft.Controllers
 {
+    [Route("api/Returnment")]
     public class ReturnmentController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -17,7 +18,7 @@ namespace NerdCraft.Controllers
         {
             _context = context;
         }
-
+        [HttpGet]
         // GET: Returnment
         public async Task<IActionResult> Index()
         {

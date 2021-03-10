@@ -9,23 +9,24 @@ using NerdCraft.Models;
 
 namespace NerdCraft.Controllers
 {
-    public class OrderItemController : Controller
+    [Route("api/OrderedItem")]
+    public class OrderedItemController : Controller
     {
         private readonly ApplicationDbContext _context;
 
-        public OrderItemController(ApplicationDbContext context)
+        public OrderedItemController(ApplicationDbContext context)
         {
             _context = context;
         }
-
-        // GET: OrderItem
+        [HttpGet]
+        // GET: OrderedItem
         public async Task<IActionResult> Index()
         {
             var applicationDbContext = _context.ordereditems.Include(o => o.Item).Include(o => o.Order);
             return View(await applicationDbContext.ToListAsync());
         }
 
-        // GET: OrderItem/Details/5
+        // GET: OrderedItem/Details/5
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -45,7 +46,7 @@ namespace NerdCraft.Controllers
             return View(ordereditem);
         }
 
-        // GET: OrderItem/Create
+        // GET: OrderedItem/Create
         public IActionResult Create()
         {
             ViewData["ItemID"] = new SelectList(_context.items, "ItemID", "Category");
@@ -53,7 +54,7 @@ namespace NerdCraft.Controllers
             return View();
         }
 
-        // POST: OrderItem/Create
+        // POST: OrderedItem/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to, for 
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
@@ -71,7 +72,7 @@ namespace NerdCraft.Controllers
             return View(ordereditem);
         }
 
-        // GET: OrderItem/Edit/5
+        // GET: OrderedItem/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -89,7 +90,7 @@ namespace NerdCraft.Controllers
             return View(ordereditem);
         }
 
-        // POST: OrderItem/Edit/5
+        // POST: OrderedItem/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to, for 
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
@@ -126,7 +127,7 @@ namespace NerdCraft.Controllers
             return View(ordereditem);
         }
 
-        // GET: OrderItem/Delete/5
+        // GET: OrderedItem/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -146,7 +147,7 @@ namespace NerdCraft.Controllers
             return View(ordereditem);
         }
 
-        // POST: OrderItem/Delete/5
+        // POST: OrderedItem/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
