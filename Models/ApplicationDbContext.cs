@@ -1,6 +1,7 @@
-﻿using System;
+using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
+using NerdCraft.Models;
 
 #nullable disable
 
@@ -412,5 +413,7 @@ namespace NerdCraft.Models
         }
 
         partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
+
+        public DbSet<NerdCraft.Models.seller> seller { get; set; }
     }
 }

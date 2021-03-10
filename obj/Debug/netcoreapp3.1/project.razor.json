@@ -14447,6 +14447,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\morga\\Desktop\\FinalProjectPhase\\NerdCraft\\Views\\Seller\\Details.cshtml",
+      "TargetPath": "Views\\Seller\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\morga\\Desktop\\FinalProjectPhase\\NerdCraft\\Views\\Discount\\Delete.cshtml",
       "TargetPath": "Views\\Discount\\Delete.cshtml",
       "FileKind": "mvc"
@@ -14522,6 +14527,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\morga\\Desktop\\FinalProjectPhase\\NerdCraft\\Views\\Seller\\Delete.cshtml",
+      "TargetPath": "Views\\Seller\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\morga\\Desktop\\FinalProjectPhase\\NerdCraft\\Views\\Shipment\\Create.cshtml",
       "TargetPath": "Views\\Shipment\\Create.cshtml",
       "FileKind": "mvc"
@@ -14529,6 +14539,11 @@
     {
       "FilePath": "c:\\Users\\morga\\Desktop\\FinalProjectPhase\\NerdCraft\\Views\\Discount\\Create.cshtml",
       "TargetPath": "Views\\Discount\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\morga\\Desktop\\FinalProjectPhase\\NerdCraft\\Views\\Seller\\Index.cshtml",
+      "TargetPath": "Views\\Seller\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -14554,6 +14569,11 @@
     {
       "FilePath": "c:\\Users\\morga\\Desktop\\FinalProjectPhase\\NerdCraft\\Views\\Item\\Index.cshtml",
       "TargetPath": "Views\\Item\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\morga\\Desktop\\FinalProjectPhase\\NerdCraft\\Views\\Seller\\Create.cshtml",
+      "TargetPath": "Views\\Seller\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -14629,6 +14649,11 @@
     {
       "FilePath": "c:\\Users\\morga\\Desktop\\FinalProjectPhase\\NerdCraft\\Views\\Returnment\\Details.cshtml",
       "TargetPath": "Views\\Returnment\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\morga\\Desktop\\FinalProjectPhase\\NerdCraft\\Views\\Seller\\Edit.cshtml",
+      "TargetPath": "Views\\Seller\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {

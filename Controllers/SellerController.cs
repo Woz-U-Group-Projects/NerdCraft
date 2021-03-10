@@ -9,24 +9,22 @@ using NerdCraft.Models;
 
 namespace NerdCraft.Controllers
 {
-    [Route("api/Person")]
-    public class PersonController : Controller
+    public class SellerController : Controller
     {
         private readonly ApplicationDbContext _context;
 
-        public PersonController(ApplicationDbContext context)
+        public SellerController(ApplicationDbContext context)
         {
             _context = context;
         }
-        //additional mapping here -> POSTMAN REQUEST api/person/addtional mapping
-        [HttpGet]
-        // GET: Person
+
+        // GET: Seller
         public async Task<IActionResult> Index()
         {
-            return View(await _context.people.ToListAsync());
+            return View(await _context.seller.ToListAsync());
         }
 
-        // GET: Person/Details/5
+        // GET: Seller/Details/5
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -34,39 +32,39 @@ namespace NerdCraft.Controllers
                 return NotFound();
             }
 
-            var person = await _context.people
+            var seller = await _context.seller
                 .FirstOrDefaultAsync(m => m.ID == id);
-            if (person == null)
+            if (seller == null)
             {
                 return NotFound();
             }
 
-            return View(person);
+            return View(seller);
         }
 
-        // GET: Person/Create
+        // GET: Seller/Create
         public IActionResult Create()
         {
             return View();
         }
 
-        // POST: Person/Create
+        // POST: Seller/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to, for 
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("ID,Email,LastName,FirstName,DateofBirth,Phone,DateJoined,IsEmployee")] person person)
+        public async Task<IActionResult> Create([Bind("SellerID,ID,ItemID,SellerName,SellerDesc,SellerEmail,SellerPhone")] seller seller)
         {
             if (ModelState.IsValid)
             {
-                _context.Add(person);
+                _context.Add(seller);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            return View(person);
+            return View(seller);
         }
 
-        // GET: Person/Edit/5
+        // GET: Seller/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -74,22 +72,22 @@ namespace NerdCraft.Controllers
                 return NotFound();
             }
 
-            var person = await _context.people.FindAsync(id);
-            if (person == null)
+            var seller = await _context.seller.FindAsync(id);
+            if (seller == null)
             {
                 return NotFound();
             }
-            return View(person);
+            return View(seller);
         }
 
-        // POST: Person/Edit/5
+        // POST: Seller/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to, for 
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("ID,Email,LastName,FirstName,DateofBirth,Phone,DateJoined,IsEmployee")] person person)
+        public async Task<IActionResult> Edit(int? id, [Bind("SellerID,ID,ItemID,SellerName,SellerDesc,SellerEmail,SellerPhone")] seller seller)
         {
-            if (id != person.ID)
+            if (id != seller.ID)
             {
                 return NotFound();
             }
@@ -98,12 +96,12 @@ namespace NerdCraft.Controllers
             {
                 try
                 {
-                    _context.Update(person);
+                    _context.Update(seller);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!personExists(person.ID))
+                    if (!sellerExists(seller.ID))
                     {
                         return NotFound();
                     }
@@ -114,10 +112,10 @@ namespace NerdCraft.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            return View(person);
+            return View(seller);
         }
 
-        // GET: Person/Delete/5
+        // GET: Seller/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -125,30 +123,30 @@ namespace NerdCraft.Controllers
                 return NotFound();
             }
 
-            var person = await _context.people
+            var seller = await _context.seller
                 .FirstOrDefaultAsync(m => m.ID == id);
-            if (person == null)
+            if (seller == null)
             {
                 return NotFound();
             }
 
-            return View(person);
+            return View(seller);
         }
 
-        // POST: Person/Delete/5
+        // POST: Seller/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(int id)
+        public async Task<IActionResult> DeleteConfirmed(int? id)
         {
-            var person = await _context.people.FindAsync(id);
-            _context.people.Remove(person);
+            var seller = await _context.seller.FindAsync(id);
+            _context.seller.Remove(seller);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
-        private bool personExists(int id)
+        private bool sellerExists(int? id)
         {
-            return _context.people.Any(e => e.ID == id);
+            return _context.seller.Any(e => e.ID == id);
         }
     }
 }
