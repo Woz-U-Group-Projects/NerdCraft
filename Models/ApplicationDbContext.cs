@@ -413,6 +413,8 @@ namespace NerdCraft.Models
             OnModelCreatingPartial(modelBuilder);
         }
 
+        
+
         partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
 
         public DbSet<NerdCraft.Models.seller> seller { get; set; }

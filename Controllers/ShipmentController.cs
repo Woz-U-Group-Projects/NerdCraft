@@ -46,6 +46,7 @@ namespace NerdCraft.Controllers
         }
 
         // GET: Shipment/Create
+        [HttpPost]
         public IActionResult Create()
         {
             ViewData["OrderID"] = new SelectList(_context.orders, "OrderNum", "OrderEmail");
@@ -70,6 +71,7 @@ namespace NerdCraft.Controllers
         }
 
         // GET: Shipment/Edit/5
+        [HttpPut]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -123,6 +125,7 @@ namespace NerdCraft.Controllers
         }
 
         // GET: Shipment/Delete/5
+        [HttpDelete]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)

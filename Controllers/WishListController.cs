@@ -47,6 +47,7 @@ namespace NerdCraft.Controllers
         }
 
         // GET: WishList/Create
+        [HttpPost]
         public IActionResult Create()
         {
             ViewData["CustomerID"] = new SelectList(_context.customers, "CustomerID", "Userpass");
@@ -73,6 +74,7 @@ namespace NerdCraft.Controllers
         }
 
         // GET: WishList/Edit/5
+        [HttpPut]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -128,6 +130,7 @@ namespace NerdCraft.Controllers
         }
 
         // GET: WishList/Delete/5
+        [HttpDelete]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)

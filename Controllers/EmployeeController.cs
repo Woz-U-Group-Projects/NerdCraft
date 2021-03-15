@@ -47,6 +47,7 @@ namespace NerdCraft.Controllers
         }
 
         // GET: Employee/Create
+        [HttpPost]
         public IActionResult Create()
         {
             ViewData["ID"] = new SelectList(_context.people, "ID", "Email");
@@ -73,6 +74,7 @@ namespace NerdCraft.Controllers
         }
 
         // GET: Employee/Edit/5
+        [HttpPut]
         public async Task<IActionResult> Edit(string id)
         {
             if (id == null)
@@ -128,6 +130,7 @@ namespace NerdCraft.Controllers
         }
 
         // GET: Employee/Delete/5
+        [HttpDelete]
         public async Task<IActionResult> Delete(string id)
         {
             if (id == null)

@@ -44,6 +44,7 @@ namespace NerdCraft.Controllers
         }
 
         // GET: Seller/Create
+        [HttpPost]
         public IActionResult Create()
         {
             return View();
@@ -66,6 +67,7 @@ namespace NerdCraft.Controllers
         }
 
         // GET: Seller/Edit/5
+        [HttpPut]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -117,6 +119,7 @@ namespace NerdCraft.Controllers
         }
 
         // GET: Seller/Delete/5
+        [HttpDelete]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
