@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sFsp7KvPzbpSvXjY+uQScnwKtXneMqLvyy0+fnDC3vjbFI+3QWph8izhht0Ct7a/wE1DdUZzdAWDyqin/7zY+A==",
+  "dgSpecHash": "jHKVLiLgdYYXOm4e1oilYeQIdrxTnGvnvH0cWkBI6+3pBmkVY4LPkqcaN4GQ9w3D+/J953KAb+bImi8xqB0pAw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\morga\\Desktop\\FinalProjectPhase\\NerdCraft\\NerdCraft.csproj",
+  "projectFilePath": "C:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\BackEnd\\NerdCraft.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\morga\\.nuget\\packages\\bouncycastle.netcore\\1.8.5\\bouncycastle.netcore.1.8.5.nupkg.sha512",
     "C:\\Users\\morga\\.nuget\\packages\\google.protobuf\\3.11.4\\google.protobuf.3.11.4.nupkg.sha512",
