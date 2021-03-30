@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\NerdCraft.csproj",
+  "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\BackEnd\\NerdCraft.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -14392,383 +14392,383 @@
   "RootNamespace": "NerdCraft",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\Views\\Seller\\Index.cshtml",
-      "TargetPath": "Views\\Seller\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\Views\\Item\\Details.cshtml",
-      "TargetPath": "Views\\Item\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\Views\\Item\\Index.cshtml",
-      "TargetPath": "Views\\Item\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\Views\\Person\\Details.cshtml",
-      "TargetPath": "Views\\Person\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\Views\\Payment\\Index.cshtml",
-      "TargetPath": "Views\\Payment\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\Views\\WishList\\Index.cshtml",
-      "TargetPath": "Views\\WishList\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\Views\\Card\\Edit.cshtml",
-      "TargetPath": "Views\\Card\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\Views\\Returnment\\Edit.cshtml",
-      "TargetPath": "Views\\Returnment\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\Views\\Order\\Index.cshtml",
-      "TargetPath": "Views\\Order\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\Views\\Card\\Create.cshtml",
-      "TargetPath": "Views\\Card\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\Views\\Discount\\Create.cshtml",
+      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\BackEnd\\Views\\Discount\\Create.cshtml",
       "TargetPath": "Views\\Discount\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\Views\\Employee\\Edit.cshtml",
-      "TargetPath": "Views\\Employee\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\Views\\Shipment\\Edit.cshtml",
-      "TargetPath": "Views\\Shipment\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\Views\\Card\\Index.cshtml",
-      "TargetPath": "Views\\Card\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\Views\\Order\\Edit.cshtml",
-      "TargetPath": "Views\\Order\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\Views\\Customer\\Edit.cshtml",
-      "TargetPath": "Views\\Customer\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\Views\\Card\\Details.cshtml",
-      "TargetPath": "Views\\Card\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\Views\\Seller\\Details.cshtml",
-      "TargetPath": "Views\\Seller\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\Views\\Order\\Details.cshtml",
-      "TargetPath": "Views\\Order\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\Views\\Employee\\Delete.cshtml",
-      "TargetPath": "Views\\Employee\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\Views\\Returnment\\Index.cshtml",
-      "TargetPath": "Views\\Returnment\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\Views\\Discount\\Edit.cshtml",
-      "TargetPath": "Views\\Discount\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\Views\\Person\\Edit.cshtml",
-      "TargetPath": "Views\\Person\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\Views\\Address\\Index.cshtml",
-      "TargetPath": "Views\\Address\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\Views\\Card\\Delete.cshtml",
-      "TargetPath": "Views\\Card\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\Views\\Returnment\\Create.cshtml",
-      "TargetPath": "Views\\Returnment\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\Views\\Customer\\Delete.cshtml",
-      "TargetPath": "Views\\Customer\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\Views\\ShoppingCart\\Edit.cshtml",
-      "TargetPath": "Views\\ShoppingCart\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\Views\\WishList\\Create.cshtml",
-      "TargetPath": "Views\\WishList\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\Views\\OrderItem\\Delete.cshtml",
-      "TargetPath": "Views\\OrderItem\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\Views\\Customer\\Index.cshtml",
-      "TargetPath": "Views\\Customer\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\Views\\Employee\\Details.cshtml",
-      "TargetPath": "Views\\Employee\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\Views\\ShoppingCart\\Index.cshtml",
-      "TargetPath": "Views\\ShoppingCart\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\Views\\Discount\\Details.cshtml",
-      "TargetPath": "Views\\Discount\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\Views\\Employee\\Create.cshtml",
-      "TargetPath": "Views\\Employee\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\Views\\Address\\Edit.cshtml",
-      "TargetPath": "Views\\Address\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\Views\\WishList\\Delete.cshtml",
+      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\BackEnd\\Views\\WishList\\Delete.cshtml",
       "TargetPath": "Views\\WishList\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\Views\\OrderItem\\Create.cshtml",
-      "TargetPath": "Views\\OrderItem\\Create.cshtml",
+      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\BackEnd\\Views\\Seller\\Index.cshtml",
+      "TargetPath": "Views\\Seller\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\Views\\WishList\\Edit.cshtml",
-      "TargetPath": "Views\\WishList\\Edit.cshtml",
+      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\BackEnd\\Views\\Returnment\\Edit.cshtml",
+      "TargetPath": "Views\\Returnment\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\Views\\Person\\Create.cshtml",
-      "TargetPath": "Views\\Person\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\Views\\Address\\Delete.cshtml",
-      "TargetPath": "Views\\Address\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\Views\\Payment\\Edit.cshtml",
-      "TargetPath": "Views\\Payment\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\Views\\Person\\Delete.cshtml",
-      "TargetPath": "Views\\Person\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\Views\\ShoppingCart\\Delete.cshtml",
-      "TargetPath": "Views\\ShoppingCart\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\Views\\Shipment\\Delete.cshtml",
-      "TargetPath": "Views\\Shipment\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\Views\\Order\\Delete.cshtml",
-      "TargetPath": "Views\\Order\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\Views\\Item\\Edit.cshtml",
-      "TargetPath": "Views\\Item\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\Views\\Payment\\Delete.cshtml",
-      "TargetPath": "Views\\Payment\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\Views\\Customer\\Details.cshtml",
-      "TargetPath": "Views\\Customer\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\Views\\Returnment\\Details.cshtml",
-      "TargetPath": "Views\\Returnment\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\Views\\OrderItem\\Details.cshtml",
-      "TargetPath": "Views\\OrderItem\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\Views\\Payment\\Create.cshtml",
-      "TargetPath": "Views\\Payment\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\Views\\Payment\\Details.cshtml",
-      "TargetPath": "Views\\Payment\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\Views\\Employee\\Index.cshtml",
-      "TargetPath": "Views\\Employee\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\Views\\Item\\Delete.cshtml",
-      "TargetPath": "Views\\Item\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\Views\\Customer\\Create.cshtml",
-      "TargetPath": "Views\\Customer\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\Views\\Address\\Details.cshtml",
-      "TargetPath": "Views\\Address\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\Views\\Returnment\\Delete.cshtml",
-      "TargetPath": "Views\\Returnment\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\Views\\Item\\Create.cshtml",
-      "TargetPath": "Views\\Item\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\Views\\Discount\\Delete.cshtml",
-      "TargetPath": "Views\\Discount\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\Views\\Order\\Create.cshtml",
-      "TargetPath": "Views\\Order\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\Views\\WishList\\Details.cshtml",
-      "TargetPath": "Views\\WishList\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\Views\\ShoppingCart\\Details.cshtml",
+      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\BackEnd\\Views\\ShoppingCart\\Details.cshtml",
       "TargetPath": "Views\\ShoppingCart\\Details.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\Views\\ShoppingCart\\Create.cshtml",
-      "TargetPath": "Views\\ShoppingCart\\Create.cshtml",
+      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\BackEnd\\Views\\Item\\Edit.cshtml",
+      "TargetPath": "Views\\Item\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\Views\\Seller\\Create.cshtml",
-      "TargetPath": "Views\\Seller\\Create.cshtml",
+      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\BackEnd\\Views\\Customer\\Details.cshtml",
+      "TargetPath": "Views\\Customer\\Details.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\Views\\Shipment\\Create.cshtml",
-      "TargetPath": "Views\\Shipment\\Create.cshtml",
+      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\BackEnd\\Views\\Customer\\Index.cshtml",
+      "TargetPath": "Views\\Customer\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\Views\\Person\\Index.cshtml",
-      "TargetPath": "Views\\Person\\Index.cshtml",
+      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\BackEnd\\Views\\WishList\\Edit.cshtml",
+      "TargetPath": "Views\\WishList\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\Views\\OrderItem\\Index.cshtml",
-      "TargetPath": "Views\\OrderItem\\Index.cshtml",
+      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\BackEnd\\Views\\Seller\\Details.cshtml",
+      "TargetPath": "Views\\Seller\\Details.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\Views\\Address\\Create.cshtml",
-      "TargetPath": "Views\\Address\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\Views\\OrderItem\\Edit.cshtml",
-      "TargetPath": "Views\\OrderItem\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\Views\\Shipment\\Index.cshtml",
+      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\BackEnd\\Views\\Shipment\\Index.cshtml",
       "TargetPath": "Views\\Shipment\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\Views\\Shipment\\Details.cshtml",
+      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\BackEnd\\Views\\ShoppingCart\\Create.cshtml",
+      "TargetPath": "Views\\ShoppingCart\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\BackEnd\\Views\\Order\\Index.cshtml",
+      "TargetPath": "Views\\Order\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\BackEnd\\Views\\Card\\Create.cshtml",
+      "TargetPath": "Views\\Card\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\BackEnd\\Views\\Shipment\\Create.cshtml",
+      "TargetPath": "Views\\Shipment\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\BackEnd\\Views\\Order\\Delete.cshtml",
+      "TargetPath": "Views\\Order\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\BackEnd\\Views\\Discount\\Index.cshtml",
+      "TargetPath": "Views\\Discount\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\BackEnd\\Views\\Employee\\Delete.cshtml",
+      "TargetPath": "Views\\Employee\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\BackEnd\\Views\\Returnment\\Index.cshtml",
+      "TargetPath": "Views\\Returnment\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\BackEnd\\Views\\Person\\Create.cshtml",
+      "TargetPath": "Views\\Person\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\BackEnd\\Views\\ShoppingCart\\Delete.cshtml",
+      "TargetPath": "Views\\ShoppingCart\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\BackEnd\\Views\\Shipment\\Delete.cshtml",
+      "TargetPath": "Views\\Shipment\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\BackEnd\\Views\\Seller\\Create.cshtml",
+      "TargetPath": "Views\\Seller\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\BackEnd\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\BackEnd\\Views\\Payment\\Edit.cshtml",
+      "TargetPath": "Views\\Payment\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\BackEnd\\Views\\OrderItem\\Delete.cshtml",
+      "TargetPath": "Views\\OrderItem\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\BackEnd\\Views\\Payment\\Index.cshtml",
+      "TargetPath": "Views\\Payment\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\BackEnd\\Views\\Employee\\Create.cshtml",
+      "TargetPath": "Views\\Employee\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\BackEnd\\Views\\OrderItem\\Index.cshtml",
+      "TargetPath": "Views\\OrderItem\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\BackEnd\\Views\\Address\\Index.cshtml",
+      "TargetPath": "Views\\Address\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\BackEnd\\Views\\Customer\\Delete.cshtml",
+      "TargetPath": "Views\\Customer\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\BackEnd\\Views\\Payment\\Delete.cshtml",
+      "TargetPath": "Views\\Payment\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\BackEnd\\Views\\Order\\Edit.cshtml",
+      "TargetPath": "Views\\Order\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\BackEnd\\Views\\Employee\\Edit.cshtml",
+      "TargetPath": "Views\\Employee\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\BackEnd\\Views\\Address\\Details.cshtml",
+      "TargetPath": "Views\\Address\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\BackEnd\\Views\\ShoppingCart\\Edit.cshtml",
+      "TargetPath": "Views\\ShoppingCart\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\BackEnd\\Views\\Card\\Delete.cshtml",
+      "TargetPath": "Views\\Card\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\BackEnd\\Views\\Person\\Delete.cshtml",
+      "TargetPath": "Views\\Person\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\BackEnd\\Views\\ShoppingCart\\Index.cshtml",
+      "TargetPath": "Views\\ShoppingCart\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\BackEnd\\Views\\Address\\Delete.cshtml",
+      "TargetPath": "Views\\Address\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\BackEnd\\Views\\Customer\\Create.cshtml",
+      "TargetPath": "Views\\Customer\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\BackEnd\\Views\\Payment\\Create.cshtml",
+      "TargetPath": "Views\\Payment\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\BackEnd\\Views\\Item\\Create.cshtml",
+      "TargetPath": "Views\\Item\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\BackEnd\\Views\\Returnment\\Create.cshtml",
+      "TargetPath": "Views\\Returnment\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\BackEnd\\Views\\Order\\Create.cshtml",
+      "TargetPath": "Views\\Order\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\BackEnd\\Views\\Payment\\Details.cshtml",
+      "TargetPath": "Views\\Payment\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\BackEnd\\Views\\OrderItem\\Edit.cshtml",
+      "TargetPath": "Views\\OrderItem\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\BackEnd\\Views\\Shipment\\Details.cshtml",
       "TargetPath": "Views\\Shipment\\Details.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\Views\\Seller\\Edit.cshtml",
+      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\BackEnd\\Views\\Item\\Details.cshtml",
+      "TargetPath": "Views\\Item\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\BackEnd\\Views\\Discount\\Delete.cshtml",
+      "TargetPath": "Views\\Discount\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\BackEnd\\Views\\Discount\\Edit.cshtml",
+      "TargetPath": "Views\\Discount\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\BackEnd\\Views\\Person\\Details.cshtml",
+      "TargetPath": "Views\\Person\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\BackEnd\\Views\\Seller\\Edit.cshtml",
       "TargetPath": "Views\\Seller\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\Views\\Seller\\Delete.cshtml",
+      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\BackEnd\\Views\\Discount\\Details.cshtml",
+      "TargetPath": "Views\\Discount\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\BackEnd\\Views\\Card\\Edit.cshtml",
+      "TargetPath": "Views\\Card\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\BackEnd\\Views\\Item\\Index.cshtml",
+      "TargetPath": "Views\\Item\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\BackEnd\\Views\\Person\\Edit.cshtml",
+      "TargetPath": "Views\\Person\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\BackEnd\\Views\\Employee\\Index.cshtml",
+      "TargetPath": "Views\\Employee\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\BackEnd\\Views\\Person\\Index.cshtml",
+      "TargetPath": "Views\\Person\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\BackEnd\\Views\\WishList\\Index.cshtml",
+      "TargetPath": "Views\\WishList\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\BackEnd\\Views\\OrderItem\\Details.cshtml",
+      "TargetPath": "Views\\OrderItem\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\BackEnd\\Views\\OrderItem\\Create.cshtml",
+      "TargetPath": "Views\\OrderItem\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\BackEnd\\Views\\Employee\\Details.cshtml",
+      "TargetPath": "Views\\Employee\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\BackEnd\\Views\\Seller\\Delete.cshtml",
       "TargetPath": "Views\\Seller\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\Views\\Discount\\Index.cshtml",
-      "TargetPath": "Views\\Discount\\Index.cshtml",
+      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\BackEnd\\Views\\Address\\Create.cshtml",
+      "TargetPath": "Views\\Address\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\BackEnd\\Views\\Address\\Edit.cshtml",
+      "TargetPath": "Views\\Address\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\BackEnd\\Views\\Returnment\\Details.cshtml",
+      "TargetPath": "Views\\Returnment\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\BackEnd\\Views\\Customer\\Edit.cshtml",
+      "TargetPath": "Views\\Customer\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\BackEnd\\Views\\Card\\Index.cshtml",
+      "TargetPath": "Views\\Card\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\BackEnd\\Views\\Item\\Delete.cshtml",
+      "TargetPath": "Views\\Item\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\BackEnd\\Views\\WishList\\Create.cshtml",
+      "TargetPath": "Views\\WishList\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\BackEnd\\Views\\Shipment\\Edit.cshtml",
+      "TargetPath": "Views\\Shipment\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\BackEnd\\Views\\Returnment\\Delete.cshtml",
+      "TargetPath": "Views\\Returnment\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\BackEnd\\Views\\Card\\Details.cshtml",
+      "TargetPath": "Views\\Card\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\BackEnd\\Views\\WishList\\Details.cshtml",
+      "TargetPath": "Views\\WishList\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\BackEnd\\Views\\Order\\Details.cshtml",
+      "TargetPath": "Views\\Order\\Details.cshtml",
       "FileKind": "mvc"
     }
   ],

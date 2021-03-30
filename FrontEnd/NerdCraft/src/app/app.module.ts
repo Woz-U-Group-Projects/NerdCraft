@@ -3,9 +3,6 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HomeComponent } from './home/home.component';
-import { LoginComponent } from './login/login.component';
-import { RegisterComponent } from './register/register.component';
 import { AddressComponent } from './address/address.component';
 import { CardComponent } from './card/card.component';
 import { CustomerComponent } from './customer/customer.component';
@@ -21,13 +18,11 @@ import { SellerComponent } from './seller/seller.component';
 import { ShipmentComponent } from './shipment/shipment.component';
 import { ShoppingCartComponent } from './shopping-cart/shopping-cart.component';
 import { WishlistComponent } from './wishlist/wishlist.component';
+import { ReviewsComponent } from './reviews/reviews.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent,
-    LoginComponent,
-    RegisterComponent,
     AddressComponent,
     CardComponent,
     CustomerComponent,
@@ -42,7 +37,8 @@ import { WishlistComponent } from './wishlist/wishlist.component';
     SellerComponent,
     ShipmentComponent,
     ShoppingCartComponent,
-    WishlistComponent
+    WishlistComponent,
+    ReviewsComponent
   ],
   imports: [
     BrowserModule,

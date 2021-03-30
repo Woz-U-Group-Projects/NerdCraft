@@ -1,12 +1,9 @@
 import { Injectable } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
-
-
 
 @Injectable({
   providedIn: 'root'
 })
-export class AddressService {
+export class ReviewsService {
 
   constructor() { }
 }

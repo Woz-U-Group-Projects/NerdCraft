@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./returnment.component.css']
 })
 export class ReturnmentComponent implements OnInit {
+  returnment = [];
 
   constructor() { }
 

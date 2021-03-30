@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./ordered-item.component.css']
 })
 export class OrderedItemComponent implements OnInit {
+  orderedItem = [];
 
   constructor() { }
 

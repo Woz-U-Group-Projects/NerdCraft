@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./discount.component.css']
 })
 export class DiscountComponent implements OnInit {
+  discount = [];
 
   constructor() { }
 
