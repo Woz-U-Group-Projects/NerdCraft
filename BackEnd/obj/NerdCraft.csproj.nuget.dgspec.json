@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\BackEnd\\NerdCraft.csproj": {}
+    "C:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\Backend\\NerdCraft.csproj": {}
   },
   "projects": {
-    "C:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\BackEnd\\NerdCraft.csproj": {
+    "C:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\Backend\\NerdCraft.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\BackEnd\\NerdCraft.csproj",
+        "projectUniqueName": "C:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\Backend\\NerdCraft.csproj",
         "projectName": "NerdCraft",
-        "projectPath": "C:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\BackEnd\\NerdCraft.csproj",
+        "projectPath": "C:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\Backend\\NerdCraft.csproj",
         "packagesPath": "C:\\Users\\morga\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\BackEnd\\obj\\",
+        "outputPath": "C:\\Users\\morga\\OneDrive\\Desktop\\FinalProjectPhase\\NerdCraft\\Backend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\morga\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -10,7 +10,7 @@ export class SellerService {
 
   constructor(private http: HttpClient) { }
 
-  apiUrl: string = "http://localhost:5000/sellers";
+  apiUrl: string = "http://localhost:4200/sellers";
 
   getSellers(): Observable<Seller[]>{
     return this.http.get<Seller[]>(this.apiUrl);
