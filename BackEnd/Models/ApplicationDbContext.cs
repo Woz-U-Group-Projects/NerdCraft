@@ -173,7 +173,7 @@ namespace NerdCraft.Models
 
                 entity.Property(e => e.Price).HasColumnType("decimal(9,2)");
 
-                entity.Property(e => e.Seller)
+                entity.Property(e => e.SellerID)
                     .IsRequired()
                     .HasMaxLength(30);
             });
