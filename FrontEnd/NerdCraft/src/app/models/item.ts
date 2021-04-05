@@ -3,7 +3,7 @@ export class Item {
     Quantity: number;
     Price: number;
     ItemType: string;
-    Seller: string;
+    SellerID: string;
     ItemDesc: string;
     Category: string;
     Image: string;

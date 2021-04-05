@@ -11,7 +11,7 @@ import { ItemService } from '../services/item.service';
 export class ItemComponent implements OnInit {
   
 
-  constructor(private itemService: ItemService, private router: Router) { }
+  constructor(private itemService: ItemService, private router: Router) {}
 
   newItem: Item = new Item();
 

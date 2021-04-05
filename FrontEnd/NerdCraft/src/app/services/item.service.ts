@@ -10,7 +10,7 @@ export class ItemService {
 
   constructor(private http: HttpClient) { }
 
-  apiUrl: string = "http://localhost:4200/storefront/Items";
+  apiUrl: string = "http://localhost:4200/items"; //url to connect with backend
 
   getItems(): Observable<Item[]>{
     return this.http.get<Item[]>(this.apiUrl);
